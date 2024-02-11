@@ -111,6 +111,7 @@ input[type=text] {
 .footer-down {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 12px;
     background-color: #000000;
