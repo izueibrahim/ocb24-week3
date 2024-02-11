@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin:0 ;
+    padding:0 ;
+}
+
+button {
+    all: unset;
+    background-color: #F4CE47;
+    color: #000000;
+    text-align: center;
+    border-radius: 16px;
+    padding: 16px 28px;
+    cursor: pointer;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+header {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #2A2C2E;
+    padding: 20px 24px;
+    border-radius: 20px;
+    margin-top: 24px;
+}
+
+.form-section {
+    background-color: #2A2C2E; 
+    width:1200px;
+    margin: 0 auto;
+    padding: 20px 24px;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 711px;
+    gap: 8px;
+    margin: 10px 0 50px 0;
+}
+
+/* body > div > form > div {
+    display: flex;
+    flex-direction: row;
+} */
+
+.hr-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    width: 500px;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    width: 572px;
+    border-radius: 16px;
+    height: 56px;
+    padding-left: 15px;
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.placeholder-radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 48px;
+}
+
+/* .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+} */
+
+.footer-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    max-width: calc(100% - 0px);
+    background-color: #2A2C2E;
+}
+
+.footer-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #000000;
+}
+
+.footer-down-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.footer-down-left {
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}
