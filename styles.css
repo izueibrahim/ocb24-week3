@@ -49,6 +49,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 711px;
+    max-width: calc(100% - 0px);
     gap: 8px;
     margin: 10px 0 50px 0;
 }
@@ -61,16 +62,20 @@ form {
 .hr-line {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    max-width: calc(100% - 0px);
+    gap: 10px;
 }
 
 hr {
-    width: 500px;
+    max-width: 500px;
 }
 
 input[type=text] {
     box-sizing: border-box;
+    /* position: relative; */
     width: 572px;
     border-radius: 16px;
     height: 56px;
@@ -80,15 +85,18 @@ input[type=text] {
 .placeholder {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 .placeholder-radio {
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
     justify-content: flex-start;
-    gap: 48px;
+    gap: 65px;
 }
 
 .footer {
@@ -138,3 +146,12 @@ input[type=text] {
         gap: 100px;
     }
 } */
+
+@media (max-width: 590px) {
+    .placeholder-radio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
