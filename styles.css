@@ -61,7 +61,6 @@ form {
 
 .hr-line {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -73,15 +72,6 @@ hr {
     max-width: 500px;
 }
 
-input[type=text] {
-    box-sizing: border-box;
-    /* position: relative; */
-    width: 572px;
-    border-radius: 16px;
-    height: 56px;
-    padding-left: 15px;
-}
-
 .placeholder {
     display: flex;
     flex-direction: row;
@@ -89,6 +79,15 @@ input[type=text] {
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    /* position: relative; */
+    width: 572px;
+    border-radius: 16px;
+    height: 56px;
+    padding-left: 15px;
 }
 
 .placeholder-radio {
